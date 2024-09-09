@@ -1124,8 +1124,8 @@
 			<div class="col-sm-8 col-md-8">
     <div class="contact-form">
         <h2>Contact Us</h2>   
-        <form id="main-contact-form" name="contact-form" method="post" action="contact.php">
-        <form id="main-contact-form" name="contact-form" method="post" action="mailto:sales@accessoryglobe.com" enctype="text/plain">
+        <form id="main-contact-form" name="contact-form">
+            <form action="https://my-bucket.s3.amazonaws.com/contact.php" method="post">
             <div class="form-group">
                 <input type="text" name="name" class="form-control" placeholder="Name" required>
             </div>
